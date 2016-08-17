@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:constantSize="true">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/img1"
+        android:id="@+id/img1"/>
+    <item
+        android:state_checked="true"
+        android:drawable="@drawable/img2"
+        android:id="@+id/img2"/>
+    <item
+        android:state_active="true"
+        android:drawable="@drawable/img3"
+        android:id="@+id/img3"/>
+    <item
+        android:state_activated="true"
+        android:drawable="@drawable/img4"
+        android:id="@+id/img4"/>
+
+</selector>
